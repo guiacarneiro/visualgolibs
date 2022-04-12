@@ -7,8 +7,8 @@ package messaging
 
 import (
 	mqtt "github.com/eclipse/paho.mqtt.golang"
+	"github.com/guiacarneiro/visualgolibs/logger"
 	"strings"
-	"visualgolibs/logger"
 )
 
 //SendMessage - send message

@@ -2,8 +2,8 @@ package config
 
 import (
 	"fmt"
+	"github.com/guiacarneiro/visualgolibs/logger"
 	"sync"
-	"visualgolibs/logger"
 
 	"github.com/spf13/viper"
 )

@@ -7,12 +7,12 @@ package api
 
 import (
 	"encoding/json"
+	"github.com/guiacarneiro/visualgolibs/logger"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"reflect"
 	"strconv"
-	"visualgolibs/logger"
 )
 
 //PostHandler - tratamento do body de um post

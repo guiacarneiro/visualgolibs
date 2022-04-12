@@ -5,7 +5,7 @@
 
 package main
 
-import "visualgolibs/logger"
+import "github.com/guiacarneiro/visualgolibs/logger"
 
 func main() {
 	logger.Inicializa(logger.Debug, "C:\\temp\\log", 1)
